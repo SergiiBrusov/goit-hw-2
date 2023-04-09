@@ -59,7 +59,8 @@ body{
 
 
 
-.header-list {
+.header-link {
+    color: var(--title-text-color);
 }
 .header-item {
     font-weight: 500;
