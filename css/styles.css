@@ -47,7 +47,7 @@ body{
     font-family:var(--logo-font) ;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-text-color);
@@ -64,21 +64,21 @@ body{
 .header-item {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(-title-text-color);
+    color: var(--title-text-color);
 }
 .header-adress{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     color: var(--primary-text-color);
 }
 .header-mail{
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -90,7 +90,7 @@ body{
 }
 .header-tel{
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -114,7 +114,7 @@ color:var(--hover-focus-color)
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--main-bg-color);
@@ -125,16 +125,17 @@ color:var(--hover-focus-color)
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--main-bg-color);
     cursor: pointer;
 }
 .hero-button:hover{
-    color: var(--hover-focus-color);
+    background-color: var(--hover-focus-color);
+    
 }
 .hero-button:focus{
-    color: var(--hover-focus-color);
+    background-color: var(--hover-focus-color);
 }
 /* Section advantages */
 .title-adv {
@@ -146,20 +147,20 @@ color:var(--hover-focus-color)
 .subtitle-adv {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
 .paragraf-adv {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);   
 }
 /*Section What are we doing (wawd)*/
 .title-wawd{
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -175,7 +176,7 @@ color:var(--hover-focus-color)
 }
 .title-team{
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -188,14 +189,14 @@ color:var(--hover-focus-color)
 .subtitle-team{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
 
 }
 .team-names{
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
    
@@ -209,7 +210,7 @@ color:var(--hover-focus-color)
     font-family:var(--logo-font) ;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-text-color);
@@ -221,7 +222,7 @@ color:var(--hover-focus-color)
     color: var(--secondary-bg-cl);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,15;
+    line-height: 1.15;
     letter-spacing: 0.02em
 }
 /* PORTFOLIO */
@@ -229,7 +230,7 @@ color:var(--hover-focus-color)
 font-family: var(--primary-font);
 font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--logo-text-color);
 background-color: var(--secondary-bg-cl);
@@ -246,13 +247,13 @@ cursor: pointer;
 .title-pic{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
 .pics-desc{
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--primary-text-color)
 }
